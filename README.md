@@ -1,6 +1,6 @@
 # Regional Healthcare Monitoring System using Machine Learning
 
-A machine-learning-based project designed to analyze regional healthcare patterns and classify lung disease risk using Logistic Regression. This system processes real-world healthcare data, performs preprocessing, builds predictive models, evaluates performance, and provides insights that support early diagnosis and decision-making for public health improvement.
+A machine-learning-based project designed to analyze regional healthcare patterns and classify lung disease risk using Logistic Regression. This system processes healthcare data, performs preprocessing, builds predictive models, evaluates performance, and provides insights that support early diagnosis and decision-making for public health improvement.
 
 ---
 
@@ -12,7 +12,12 @@ The Regional Healthcare Monitoring System aims to:
 - Assist healthcare workers in understanding region-wise disease spread.
 - Provide actionable insights for medical decision-making.
 
-This project includes data preprocessing, model training, evaluation, visualization, and a final conclusion based on the ML model's performance.
+The project includes:
+- Data preprocessing
+- Model training
+- Evaluation metrics
+- Visualizations
+- Interpretations & conclusions
 
 ---
 
@@ -20,23 +25,32 @@ This project includes data preprocessing, model training, evaluation, visualizat
 
 - ✔ **Data Cleaning & Preprocessing**  
 - ✔ **Feature Engineering**  
-- ✔ **ML Model: Logistic Regression**  
+- ✔ **Machine Learning Model: Logistic Regression**  
 - ✔ **Accuracy, Precision, Recall, F1-score evaluation**  
 - ✔ **Classification Report & Confusion Matrix**  
-- ✔ **Visual analysis and insights**  
 - ✔ **Handles real regional healthcare dataset**  
-- ✔ **Fully reproducible pipeline**
+- ✔ **Fully reproducible ML pipeline**
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Scikit-learn**
-- **Matplotlib / Seaborn**
-- **Jupyter Notebook**
-- **Machine Learning (Classification)**
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
 
 ---
+
+## 📂 Project Structure
+📁 healthcare-monitoring/
+├── data/ # Dataset files
+├── notebooks/ # Jupyter notebook(s)
+├── models/ # Saved ML models (optional)
+├── final.pdf # Project synopsis
+├── README.md # Project documentation
+└── main.py / .ipynb # Main ML implementation file
+
